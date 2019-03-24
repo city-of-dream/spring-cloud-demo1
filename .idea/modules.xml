@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../demo1/client-demo-1/client.iml" filepath="$PROJECT_DIR$/../demo1/client-demo-1/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-demo/client-demo.iml" filepath="$PROJECT_DIR$/client-demo/client-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo1/common/common.iml" filepath="$PROJECT_DIR$/../demo1/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo1.iml" filepath="$PROJECT_DIR$/demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo1/feign-server/feign-server.iml" filepath="$PROJECT_DIR$/../demo1/feign-server/feign-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo1/file/file.iml" filepath="$PROJECT_DIR$/../demo1/file/file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo1/gateway/gateway.iml" filepath="$PROJECT_DIR$/../demo1/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo1/oauth2/oauth2.iml" filepath="$PROJECT_DIR$/../demo1/oauth2/oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-demo/server-demo.iml" filepath="$PROJECT_DIR$/server-demo/server-demo.iml" />
+    </modules>
+  </component>
+</project>

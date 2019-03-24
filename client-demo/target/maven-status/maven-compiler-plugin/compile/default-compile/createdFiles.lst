@@ -1,0 +1,5 @@
+com\client\demo\controller\ClientController.class
+com\client\demo\feign\FeignService.class
+com\client\demo\Application.class
+com\client\demo\feign\FeignService$UserFeignConfig.class
+com\client\demo\feign\fallback\FeignServiceImpl.class

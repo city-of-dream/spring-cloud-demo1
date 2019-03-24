@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client" />
+        <module name="client-demo" />
+        <module name="common" />
+        <module name="eureka" />
+        <module name="feign-server" />
+        <module name="file" />
+        <module name="gateway" />
+        <module name="oauth2" />
+        <module name="server-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client" target="1.8" />
+      <module name="client-demo" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="demo1" target="1.8" />
+      <module name="demo2" target="1.8" />
+      <module name="demo3" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="feign-server" target="1.8" />
+      <module name="file" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="oauth2" target="1.8" />
+      <module name="server" target="1.8" />
+      <module name="server-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

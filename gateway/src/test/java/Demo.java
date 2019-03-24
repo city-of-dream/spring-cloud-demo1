@@ -1,0 +1,26 @@
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+public class Demo {
+
+
+    @NotEmpty
+    private String manufacturer;
+
+    @NotNull
+    @Size(min = 2, max = 14)
+    private String licensePlate;
+
+    @Min(2)
+    private int seatCount;
+
+    public Demo(String manufacturer, String licencePlate, int seatCount) {
+        this.manufacturer = manufacturer;
+        this.licensePlate = licencePlate;
+        this.seatCount = seatCount;
+    }
+
+
+}
