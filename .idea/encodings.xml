@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/../demo1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../demo1/client-demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../demo1/client-demo-1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../demo1/common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../demo1/eureka" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../demo1/feign-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../demo1/file" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../demo1/gateway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../demo1/oauth2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../demo1/server-demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../demo1/server-demo-1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../demo1/server-demo-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/file" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-demo" charset="UTF-8" />
   </component>
 </project>

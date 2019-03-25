@@ -5,7 +5,7 @@ package com.common.enums;
 public enum ResponseEnum {
     SUCCESS_RESPONSE(0,"success response"),
     FAIL_RESPONSE(-9999,"fail response"),
-    INVALID_REQUEST(201,"无效请求");
+    INVALID_REQUEST(201,"参数校验失败");
 
 
     private int code;

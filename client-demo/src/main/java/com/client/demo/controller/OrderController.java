@@ -6,24 +6,20 @@ import com.common.model.R;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.Resource;
 import javax.validation.Valid;
-import javax.validation.Validator;
-
 
 
 @RestController
-@RequestMapping("/order")
 public class OrderController {
 
-//    @Resource
-//    private Validator validator;
 
-    @PostMapping("/orderInit")
+    @PostMapping("/order/orderInit")
     public Object orderInit(@RequestBody @Valid OrderReq req,BindingResult result){
+        if(result.hasErrors()){
+            return new R(-9999,result.getAllErrors().get(0).getDefaultMessage());
+        }
         return new R(ResponseEnum.SUCCESS_RESPONSE,req);
     }
 

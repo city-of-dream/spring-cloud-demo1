@@ -1,4 +1,4 @@
-package com.common.config;
+package com.client.demo.config;
 
 import org.hibernate.validator.HibernateValidator;
 import org.springframework.context.annotation.Bean;
