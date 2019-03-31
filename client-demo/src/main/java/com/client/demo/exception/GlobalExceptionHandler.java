@@ -1,11 +1,13 @@
 package com.client.demo.exception;
 
 import com.common.model.R;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 
 @RestController
 @ControllerAdvice
+@Slf4j
 public class GlobalExceptionHandler {
 
     @ExceptionHandler
@@ -14,6 +16,7 @@ public class GlobalExceptionHandler {
             GeneralException ge = (GeneralException) exception;
             return new R(-9999,ge.getMsg());
         }
-        return new R(-9999,"bad request, ");
+        log.info(exception.getMessage());
+        return new R(-9999,"系统错误");
     }
 }

@@ -2,8 +2,10 @@ package com.client.demo.req;
 
 import lombok.Data;
 
+import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
+import java.util.List;
 
 @Data
 public class OrderReq {
@@ -16,5 +18,8 @@ public class OrderReq {
     private String userId;
     @NotEmpty(message = "订单归属人不能空")
     private String belongerId;
+    @NotEmpty(message = "产品列表不能为空")
+    @Valid
+    private List<Product> productList;
 
 }
